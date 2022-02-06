@@ -1,25 +1,26 @@
 <template>
     <div class="container">
-        <!-- <Carousel :dots="false" :nav="false" :autoplayHoverPause="true" :autoplay="true">  -->
-            <!-- <img src="https://placeimg.com/200/200/any?1">
+        <Carousel :dots="false" :nav="true" :autoplayHoverPause="true" :autoplay="true">  
+            <img src="https://placeimg.com/200/200/any?1">
             <img src="https://placeimg.com/200/200/any?2">
             <img src="https://placeimg.com/200/200/any?3">
             <img src="https://placeimg.com/200/200/any?4">
             <img src="https://placeimg.com/200/200/any?1">
             <img src="https://placeimg.com/200/200/any?2">
             <img src="https://placeimg.com/200/200/any?3">
-            <img src="https://placeimg.com/200/200/any?4"> -->
-        <!-- </Carousel> -->
+            <img src="https://placeimg.com/200/200/any?4"> 
+        </Carousel>
     </div>
 </template>
 
 <script>
 
+import Carousel from 'vue-owl-carousel'
 
 export default {
-    components: {
-    },
+    components: { Carousel },
 }
+
 </script>
 
 <style lang='scss' scoped>
